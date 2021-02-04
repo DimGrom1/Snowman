@@ -1,0 +1,42 @@
+html{
+    min-height: 100%;
+}
+body{
+	background: url(bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+form{
+	text-align: center;
+	margin: auto;
+	background: rgba(255,255,255,0.5);
+	width:90%;
+	max-width: 500px;
+	border-radius: 9px;
+	box-shadow: 0 0 9px rgba(0,0,0,0.5);
+}
+input{
+	display: block;
+	margin: auto;
+	line-height: 35px;
+	border: 1px solid #ddd;
+	border-radius: 9px;
+	box-shadow: 0 0 9px rgba(0,0,0,0.5);
+}
+button{
+   margin: auto;
+   margin: 10px;
+   line-height: 35px;
+   border-radius: 10px;
+}
+h6{
+	font-size: 25px;
+	margin: 0px;
+}
+h4{
+	font-size: 25px;
+}
+img{
+	width: 100%;
+}
