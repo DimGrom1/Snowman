@@ -24,6 +24,7 @@ okButton.onclick = function (event) {
 	event.preventDefault();
 	userLetter.select();
 	let letter = userLetter.value;
+	letter=letter.toLowerCase();
 	if (!usedLetters.includes(letter)){
 		usedLetters.push(letter);
 	}
